@@ -2,6 +2,6 @@ import math
 
 n=int(input("Enter: "))
 if(math.sqrt(n)==n**0.5):
-	print("Yes")
+	print("Yes, it is a perfect square")
 else:
-	print("No")
+	print("No,not a square.")
